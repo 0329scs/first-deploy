@@ -30,6 +30,6 @@ res.status(res.statusCode || 500)
 res.json({ error: err.message || 'internal server error' })
 })
 
-app.listen(80, () => {
+app.listen(3000, () => {
     console.log("3000port 대기중!")
 });
