@@ -3,9 +3,9 @@ const router = express.Router()
 const connection = require('../config/database.js')
 const crypto = require('crypto')
 var bkfd2Password = require("pbkdf2-password");
-var hasher = bkfd2Password();
-var assert = require("assert");
-const bcrypt = require('bcrypt');
+// var hasher = bkfd2Password();
+// var assert = require("assert");
+// const bcrypt = require('bcrypt');
 
 router.post('/', (req, res) => {
   console.log('==== registration ====')
